@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.name{
+    color: rgb(19, 145, 145);
+    background-color: rgb(226, 235, 251);
+    height: 120px;
+    text-align: center;
+    padding-top: 70px;
+}
+main{
+    padding-bottom: 30px;
+    margin-top: 50px;
+    border: 3px rgb(102, 189, 224) solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    box-shadow: 0px 0.5px 13px rgb(56, 55, 55) inset;
+    
+
+}
+.date{
+    position: relative;
+    top: -45px;
+    background-color: rgb(102, 189, 224);
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 110px;
+    border-radius: 8px;
+    
+    
+    
+}
+.date>h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+.date>p{
+    text-align: end;
+    position: relative;
+    right: 5px;
+    top: 60px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1.5px solid rgb(17, 141, 230);
+    border-radius: 2%;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+     gap: 20px;
+}
+
+
+.card{
+    margin-top: 20px;
+    display: inline-block;
+    color: azure;
+    height: 70px;
+    width: 80px;
+    font-size: 45px;
+    background-color: rgb(102, 189, 224);
+    border: 3px rgba(66, 112, 212, 0.757) solid;
+    border-radius: 15%;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: -1px 3px 13px rgba(64, 60, 60, 0.696);
+}
+.regularenrollment,.backlogenrolment,.camarks,.pcamarks{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    height: 170px;
+    width: 130px;
+    border-radius: 12%;
+}
+.regularenrollment:hover,.backlogenrolment:hover,.camarks:hover,.pcamarks:hover{
+    box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.696);
+}
+.regularenrollment>p,.backlogenrolment>p,.camarks>p,.pcamarks>p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.modules{
+    padding: 30px;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+.number{
+    background-color: rgba(246, 115, 115, 0.609);
+    color: rgb(179, 1, 1);
+    text-align: start;
+    padding: 25px;
+    border-radius: 5%;
+}
+.onlineexam{
+    padding: 20px;
+    text-align: center;
+}
+.onlineexam>.card{
+    background-color: rgba(229, 73, 73, 0.819);
+    border-color: brown;
+}
+.onlineexam:hover{
+    box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.696);
+}
+.upload{
+    color: green;
+    background-color: rgba(123, 245, 123, 0.577);
+    text-align: start;
+    padding: 25px;
+    border-radius: 5%;
+
+}
+footer{
+    margin-top: 40px;
+    height: 60px;
+    background-color: #34abda;
+    color: azure;
+    box-shadow: 0px -8px 13px rgb(78, 67, 67)inset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+}
